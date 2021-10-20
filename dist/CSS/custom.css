@@ -26,6 +26,9 @@ body {
   display: none; }
 
 @media screen and (max-width: 400px) {
+  #angry-face, #no-care-face, #fun-face {
+    width: 40px;
+    height: 40px; }
   .blob {
     position: absolute;
     top: 0%;
