@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-const weatherApi = `http://api.openweathermap.org/data/2.5/weather?lat=41.374853585024944&lon=2.1771399221062953&appid=b9f0bef736652c8d69b92419eab7fb57&units=metric`;
+const weatherApi = `https://api.openweathermap.org/data/2.5/weather?lat=41.374853585024944&lon=2.1771399221062953&appid=b9f0bef736652c8d69b92419eab7fb57&units=metric`;
 const getTemperature = (url) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const response = yield fetch(url, {

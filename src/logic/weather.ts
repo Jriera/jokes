@@ -1,7 +1,7 @@
 
 
 
-const weatherApi:string = `http://api.openweathermap.org/data/2.5/weather?lat=41.374853585024944&lon=2.1771399221062953&appid=b9f0bef736652c8d69b92419eab7fb57&units=metric`
+const weatherApi:string = `https://api.openweathermap.org/data/2.5/weather?lat=41.374853585024944&lon=2.1771399221062953&appid=b9f0bef736652c8d69b92419eab7fb57&units=metric`
 
 const getTemperature = async (url:string):Promise<string> =>{
   try {
