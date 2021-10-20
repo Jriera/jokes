@@ -16,7 +16,7 @@
   },
   "scripts": {
     "sass":"node-sass -w src/sass/ -o dist/css/ --recursive" ,
-    "optim-css": "purgecss --css css/custom.css --content index.html -o css/optim-custom.css",
+    "optim-css": "purgecss --css dist/css/custom.css --content dist/index.html -o dist/css/optim-custom.css",
     "build":"tsc"
   },
   "keywords": [],
